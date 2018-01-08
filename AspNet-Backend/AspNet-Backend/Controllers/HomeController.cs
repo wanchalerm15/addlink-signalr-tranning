@@ -14,5 +14,12 @@ namespace AspNet_Backend.Controllers
 
             return View();
         }
+
+        public ActionResult ChatHub()
+        {
+            ViewBag.Title = "ChatHub Page";
+
+            return PartialView();
+        }
     }
 }
