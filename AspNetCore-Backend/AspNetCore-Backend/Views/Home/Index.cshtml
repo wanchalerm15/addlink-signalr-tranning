@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <script src="~/js/signalr-client-1.0.0-alpha2-final.js"></script>
+</head>
+<body>
+    <label>Message :</label>
+    <input type="text" id="textMessage" />
+    <input type="button" value="send message" id="sendBtn" />
+    <ul id="messages"></ul>
+
+    <script>
+        var signalRHub = new signalR.HubConnection("SignalRHub");
+        // callback from server
+        signalRHub.on('Login', function (connectMSG) {
+            console.log(connectMSG);
+        });
+        signalRHub.on('sayMessage', function (message) {
+            var list = document.createElement("li");
+            list.innerHTML = message;
+            messages.appendChild(list);
+        });
+
+        // start hub
+        signalRHub.start();
+
+        // send message
+        sendBtn.onclick = function () {
+            if (textMessage.value.trim() == '') return;
+            signalRHub.invoke('sayMessage', textMessage.value);
+            textMessage.value = null;
+        };
+    </script>
+</body>
+</html>

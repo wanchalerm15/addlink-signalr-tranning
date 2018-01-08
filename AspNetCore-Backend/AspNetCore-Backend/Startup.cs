@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using AspNetCore_Backend.Hubs;
 
 namespace AspNetCore_Backend
 {
@@ -23,6 +24,7 @@ namespace AspNetCore_Backend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSignalR();
             services.AddMvc();
         }
 
@@ -33,7 +35,12 @@ namespace AspNetCore_Backend
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseSignalR(route =>
+            {
+                route.MapHub<SignalRHub>("SignalRHub");
+            });
+            app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
