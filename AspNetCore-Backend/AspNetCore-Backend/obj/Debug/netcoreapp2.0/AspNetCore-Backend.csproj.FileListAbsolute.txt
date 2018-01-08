@@ -1,0 +1,11 @@
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\bin\Debug\netcoreapp2.0\AspNetCore-Backend.deps.json
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\bin\Debug\netcoreapp2.0\AspNetCore-Backend.runtimeconfig.json
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\bin\Debug\netcoreapp2.0\AspNetCore-Backend.runtimeconfig.dev.json
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\bin\Debug\netcoreapp2.0\AspNetCore-Backend.dll
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\bin\Debug\netcoreapp2.0\AspNetCore-Backend.pdb
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\obj\Debug\netcoreapp2.0\AspNetCore-Backend.csprojResolveAssemblyReference.cache
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\obj\Debug\netcoreapp2.0\AspNetCore-Backend.csproj.CoreCompileInputs.cache
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\obj\Debug\netcoreapp2.0\AspNetCore-Backend.AssemblyInfoInputs.cache
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\obj\Debug\netcoreapp2.0\AspNetCore-Backend.AssemblyInfo.cs
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\obj\Debug\netcoreapp2.0\AspNetCore-Backend.dll
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNetCore-Backend\AspNetCore-Backend\obj\Debug\netcoreapp2.0\AspNetCore-Backend.pdb
