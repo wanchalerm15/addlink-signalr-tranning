@@ -56,3 +56,7 @@ C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\Asp
 C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\obj\Debug\AspNet-Backend.csproj.CoreCompileInputs.cache
 C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\obj\Debug\AspNet-Backend.dll
 C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\obj\Debug\AspNet-Backend.pdb
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\obj\Debug\AspNet-Backend.csprojResolveAssemblyReference.cache
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\bin\Microsoft.Owin.Cors.dll
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\bin\System.Web.Cors.dll
+C:\Users\ADDLINK-OUTSOURCE\Documents\addlink-signalr-tranning\AspNet-Backend\AspNet-Backend\bin\Microsoft.Owin.Cors.xml
