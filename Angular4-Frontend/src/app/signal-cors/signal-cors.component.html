@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="card">
+        <h4 class="card-header">
+            Chat Box
+        </h4>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-5">
+                    <form (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="login" [(ngModel)]="form.login" disabled>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" name="message" required [(ngModel)]="form.message" placeholder="Enter message here"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control" name="client" [(ngModel)]="form.client">
+                                <option value="all">All clients</option>
+                                <option [value]="item" *ngFor="let item of userIds">{{ item }}</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group text-right">
+                            <input type="submit" value="send message now" class="btn btn-warning w-50">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-7">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Chat box messages</li>
+                        <li *ngFor="let item of messages" class="list-group-item">
+                            <small class="badge badge-primary">{{ item.name }}</small> : {{ item.message }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -35,9 +35,11 @@ namespace AspNetCore_Backend
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(cors => cors.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials());
             app.UseSignalR(route =>
             {
                 route.MapHub<SignalRHub>("SignalRHub");
+                route.MapHub<ChatHub>("ChatHub");
             });
             app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
